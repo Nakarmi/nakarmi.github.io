@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='900' viewBox='0 0 1200 900'>
+  <rect width='1200' height='900' fill='#fff1e5'/>
+  <rect x='140' y='140' width='920' height='620' rx='36' fill='#ffffff'/>
+  <circle cx='360' cy='430' r='160' fill='#ff7b00'/>
+  <circle cx='720' cy='430' r='140' fill='#f25f5c'/>
+  <path d='M500 300 C590 220, 780 220, 860 320' stroke='#1d1d1d' stroke-width='18' fill='none' stroke-linecap='round'/>
+  <text x='220' y='720' font-family='Arial, sans-serif' font-size='42' fill='#1d1d1d'>Illustration Pack</text>
+</svg>

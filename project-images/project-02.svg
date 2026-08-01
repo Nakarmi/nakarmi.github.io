@@ -1,9 +1,0 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='900' viewBox='0 0 1200 900'>
-  <rect width='1200' height='900' fill='#e8f5ff'/>
-  <rect x='180' y='180' width='840' height='540' rx='36' fill='#ffffff'/>
-  <rect x='260' y='270' width='260' height='320' rx='28' fill='#4c6ef5'/>
-  <rect x='560' y='250' width='360' height='160' rx='24' fill='#2f353e'/>
-  <rect x='560' y='440' width='300' height='110' rx='24' fill='#7dd3fc'/>
-  <path d='M620 620 L760 620 L690 520Z' fill='#ff9f1c'/>
-  <text x='260' y='710' font-family='Arial, sans-serif' font-size='42' fill='#1d1d1d'>UI Motion</text>
-</svg>

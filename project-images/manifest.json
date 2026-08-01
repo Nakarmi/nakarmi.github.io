@@ -1,0 +1,20 @@
+[
+  {
+    "src": "project-images/project-01.svg",
+    "alt": "Featured project concept preview",
+    "title": "Brand Identity",
+    "description": "Editorial layouts and launch visuals for a modern product introduction."
+  },
+  {
+    "src": "project-images/project-02.svg",
+    "alt": "Featured project interface layout",
+    "title": "UI Motion",
+    "description": "Interactive motion systems and polished transitions for a digital experience."
+  },
+  {
+    "src": "project-images/project-03.svg",
+    "alt": "Featured project illustration preview",
+    "title": "Illustration Pack",
+    "description": "A flexible set of artwork and visual assets for cross-platform campaigns."
+  }
+]

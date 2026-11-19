@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,3 +63,78 @@
   <script src="script.js"></script>
 </body>
 </html>
+=======
+# Bipin Nakarmi — Portfolio source
+
+A responsive, static portfolio built with semantic HTML, modular CSS and vanilla JavaScript.
+
+## Project structure
+
+```text
+bipin_portfolio_source/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── app.js
+├── assets/
+│   └── Bipin-Nakarmi-CV.pdf   (add your own CV)
+└── README.md
+```
+
+## Run locally
+
+1. Extract the project folder.
+2. Open `index.html` in a modern browser.
+3. For a more production-like local preview, use VS Code Live Server or run:
+   `python -m http.server 8000`
+4. Open `http://localhost:8000`.
+
+No build process or framework is required.
+
+## Personalise the website
+
+Open `js/app.js` and update:
+
+- `CONFIG.social.instagram`
+- `CONFIG.social.behance`
+- `CONFIG.social.linkedin`
+- `CONFIG.cvUrl`
+- `CONFIG.formEndpoint`
+
+Add your CV at `assets/Bipin-Nakarmi-CV.pdf`, or update `cvUrl` to its path.
+
+Replace the concept project cards in `index.html` with your real project images, titles, categories and case-study links. Keep image files in `assets/` and use descriptive alt text.
+
+## Contact form — important
+
+The browser cannot securely send email directly to a mailbox. This project deliberately does not include email-provider credentials in client-side code.
+
+To receive messages at `bpin.nakarmi77@gmail.com`:
+
+1. Create a form at a provider such as Formspree, Getform or Netlify Forms, or implement your own serverless endpoint.
+2. Configure that provider to deliver submissions to `bpin.nakarmi77@gmail.com`.
+3. Copy the provider's HTTPS form endpoint into `CONFIG.formEndpoint` in `js/app.js`.
+4. Test a submission, including the success and failure states, before publishing.
+
+Never place SMTP passwords, private API keys or mail-provider secrets in `app.js`.
+
+## Production checklist
+
+- Replace all six placeholder project artworks with original portfolio work.
+- Add the real social profile URLs.
+- Add and test the CV PDF.
+- Configure and test the form endpoint.
+- Add a custom favicon and Open Graph sharing image.
+- Test keyboard navigation, mobile layouts and reduced-motion settings.
+- Deploy the folder to a static host such as Netlify, Vercel or GitHub Pages.
+- Connect a custom domain and enable HTTPS.
+
+## Architecture
+
+- `index.html`: semantic content and accessible component markup.
+- `css/styles.css`: design tokens, layout, responsive behaviour, states and motion.
+- `js/app.js`: navigation, section observation, reveal effects, project carousel, social links, CV path and contact form submission.
+
+The site uses vanilla JavaScript and has no runtime framework dependency.
+>>>>>>> 6ea2063 (Updated portfolio)
